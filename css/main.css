@@ -261,6 +261,7 @@ hr {
 .bubble {
   opacity: 0;
 }
+
 .sportbysport {
   opacity: 0;
 }
@@ -284,15 +285,19 @@ hr {
 }
 
 @keyframes roll-in {
+
   0% {
     transform: rotate(0);
   }
+
   33% {
     transform: rotate(10deg);
   }
+
   66% {
     transform: rotate(-20deg);
   }
+
   100% {
     transform: rotate(0);
   }
@@ -303,7 +308,7 @@ hr {
     margin-left: -15em;
   }
 
-  }
+}
 @media only screen and (min-width: 820px) {
 
   .mobile {
