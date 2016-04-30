@@ -3,6 +3,8 @@ var $sevenfive = $('.sevenfive');
 var $piechart = $('.piechart');
 var $bubble = $('.bubble');
 var $sportbysport = $('.sportbysport');
+var $sixtytwo = $('.sixtytwo');
+var $balls = $('.balls');
 
 $('.prevention-bar g').on('click', function () {
   $(this).toggleClass('buttons');
@@ -36,11 +38,11 @@ $piechart.waypoint(function (direction) {
   }
 }, {offset: '50%'});
 
-$bubble.waypoint(function (direction) {
+$sixtytwo.waypoint(function (direction) {
   if (direction == 'down') {
-    $bubble.addClass('js-animate');
+    $sixtytwo.addClass('js-animate');
   } else {
-    $bubble.removeClass('js-animate');
+    $sixtytwo.removeClass('js-animate');
   }
 }, {offset: '50%'});
 
@@ -49,5 +51,13 @@ $sportbysport.waypoint(function (direction) {
     $sportbysport.addClass('js-animate');
   } else {
     $sportbysport.removeClass('js-animate');
+  }
+}, {offset: '50%'});
+
+$balls.waypoint(function (direction) {
+  if (direction == 'down') {
+    $balls.addClass('js-animate');
+  } else {
+    $balls.removeClass('js-animate');
   }
 }, {offset: '50%'});

@@ -236,9 +236,41 @@ g:nth-child(3).buttons {
   transform: translate(853px, 45px);
 }
 
-.js-animate svg {
+.million {
+  opacity: 0;
+}
+
+.sevenfive {
+  opacity: 0;
+}
+
+.piechart {
+  opacity: 0;
+}
+
+.bubble {
+  opacity: 0;
+}
+.sportbysport {
+  opacity: 0;
+}
+
+.sixtytwo {
+  opacity: 0;
+}
+
+.balls {
+  opacity: 0;
+}
+
+.js-animate {
   opacity: 1;
-  animation: spin-in 1s ease-in;
+  animation: roll-in 1s ease-in;
+}
+
+.js-animate-out {
+  opacity: 1;
+  animation: roll-out 1s ease-out;
 }
 
 @keyframes roll-in {
@@ -246,17 +278,16 @@ g:nth-child(3).buttons {
     transform: rotate(0);
   }
   33% {
-    transform: rotate(30deg);
-    transform: translateX(200px);
+    transform: rotate(10deg);
   }
   66% {
-    transform: translateX(400px);
+    transform: rotate(-20deg);
   }
   100% {
     transform: rotate(0);
-    transform: translateX(200px);
   }
 }
+
 @media only screen and (min-width: 455px) {
   .prevention-bar {
     margin-left: -15em;
