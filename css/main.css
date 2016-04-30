@@ -128,16 +128,26 @@ hr {
 
 .boy {
   width: 150%;
-  overflow: hidden;
   margin-left: -25%;
+  transition: move-in 1s ease;
+  overflow: visible;
 }
 
-.boy > g.info{
+.buttons {
+  opacity: 1;
+}
+
+.info1,
+.info2,
+.info3,
+.info4,
+.info5,
+.info6,
+.info7 {
   opacity: 0;
 }
 
-#star3:hover g:nth-child(3).info,
-g:nth-child(3).buttons {
+#star1:hover .info4 {
   opacity: 1;
 }
 

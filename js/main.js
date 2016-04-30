@@ -10,7 +10,7 @@ $('.prevention-bar g').on('click', function () {
   $(this).toggleClass('buttons');
 });
 
-$('.boy g').on('click', function () {
+$('.boy g').on('click', function (e) {
   $(this).toggleClass('buttons');
 });
 
