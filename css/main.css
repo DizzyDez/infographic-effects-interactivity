@@ -304,6 +304,7 @@ hr {
 }
 
 @media only screen and (min-width: 455px) {
+
   .prevention-bar {
     margin-left: -15em;
   }
@@ -327,6 +328,7 @@ hr {
   .prevention {
     width: 75%;
   }
+  
   .prevention-bar {
     margin: 0;
     width: 110%;
